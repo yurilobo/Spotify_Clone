@@ -5,6 +5,7 @@
 */
 html, body, #home{
 	height: 100%;
+	overflow-x: hidden;
 }
 body{
 	background: url(../imagens/capa.png),
@@ -63,7 +64,39 @@ nav.navbar-transparente{
 	background: white;
 	color: black;
 }
+/*-----------Estrutura de conteudo-------------*/
+.caixa{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#servicos{
+	background: white;
+	
+}
+#recursos{
+	color: white;
+}
+#servicos h2,h3{
+	color: #7c25f8;
+}
 
+#recursos h2{
+	color: white;
+}
+#recursos h3{
+	color: #9bf0e1;
+}
+.albuns{
+	padding: 10px 0px;
+}
+
+.rotacionar{
+	
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	padding-left: 80px;
+}
 
 /*-----------tipografia-------------*/
 h1{
@@ -72,7 +105,16 @@ h1{
 	margin-bottom: 50px;
 	color: white;
 }
-
+h2{
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em; 
+}
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em; 
+}
 /*/ Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
