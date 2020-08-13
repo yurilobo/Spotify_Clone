@@ -112,6 +112,18 @@ footer .navbar-nav{
 	color: white;
 	font-size: 0.8em;
 }
+footer .navbar-nav a:hover{
+	color: white;
+	font-size: 0.8em;
+}
+footer ul{
+	list-style: none;
+}
+footer ul li{
+	float: right;
+	margin: 0 5px;
+
+}
 
 /*-----------tipografia-------------*/
 h1{
